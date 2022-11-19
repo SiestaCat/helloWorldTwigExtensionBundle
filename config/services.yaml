@@ -1,0 +1,3 @@
+services:
+  SiestaCat\HelloWorldTwigExtensionBundle\Twig\HelloWorldExtension:
+    tags: ['twig.extension']
