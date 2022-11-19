@@ -1,0 +1,8 @@
+--TEST--
+"hello_world" function
+--TEMPLATE--
+{{ hello_world() }}
+--DATA--
+return []
+--EXPECT--
+This is a hello world Bundle

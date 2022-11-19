@@ -1,0 +1,33 @@
+{
+    "name": "siestacat/helloworldtwigextensionbundle",
+    "description": "helloWorldTwigExtensionBundle",
+    "type": "symfony-bundle",
+    "homepage": "https://github.com/SiestaCat/helloWorldTwigExtensionBundle",
+    "require": {
+        "php": "^8",
+        "symfony/framework-bundle": "^6",
+        "twig/twig": "^3",
+        "symfony/yaml": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SiestaCat\\HelloWorldTwigExtensionBundle\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },  
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Siesta Cat",
+            "email": "siestacat.dev@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
